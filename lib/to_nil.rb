@@ -11,3 +11,7 @@ end
 class Object
   include ToNil::ObjectExtension
 end
+
+class BasicObject
+  include ::ToNil::ObjectExtension
+end

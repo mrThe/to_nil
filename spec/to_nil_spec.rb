@@ -5,7 +5,7 @@ describe ToNil do
     expect(ToNil::VERSION).not_to be nil
   end
 
-  [String, Object, Hash, Array].each do |klass|
+  [String, Object, Hash, Array, BasicObject].each do |klass|
     it "returns nil for a #{klass} instance" do
       expect(klass.new.to_nil).to be_nil
     end
