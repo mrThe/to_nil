@@ -10,4 +10,8 @@ describe ToNil do
       expect(klass.new.to_nil).to be_nil
     end
   end
+
+  it "returns nil for nil.to_nil" do
+    expect(nil.to_nil).to be_nil
+  end
 end
