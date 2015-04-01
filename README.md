@@ -25,6 +25,7 @@ Or install it yourself as:
 31337.to_nil # nil
 "Yet another shitty gem".to_nil # nil
 "Your fat boss".to_nil # nil
+nil.to_nil # nil
 ```
 
 ## Contributing
