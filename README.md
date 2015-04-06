@@ -7,7 +7,7 @@ Cast everything to nil!
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'to_nil'
+gem 'mr_to_nil'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install to_nil
+    $ gem install mr_to_nil
 
 ## Usage
 

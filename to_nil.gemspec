@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'to_nil/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "to_nil"
+  spec.name          = "mr_to_nil"
   spec.version       = ToNil::VERSION
   spec.authors       = ["mr.The"]
   spec.email         = ["me@mrthe.name"]
