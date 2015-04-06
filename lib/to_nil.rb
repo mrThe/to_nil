@@ -5,6 +5,9 @@ module ToNil
     def to_nil
       nil
     end
+    def to_nil?
+      nil
+    end
   end
 end
 

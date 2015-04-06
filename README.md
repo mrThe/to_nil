@@ -1,6 +1,7 @@
 # ToNil
 
 Cast everything to nil!
+Also, convert to nil only if not already nil.
 
 ## Installation
 
@@ -26,6 +27,11 @@ Or install it yourself as:
 "Yet another shitty gem".to_nil # nil
 "Your fat boss".to_nil # nil
 nil.to_nil # nil
+
+nil.to_nil? # nil
+?0.to_nil? # nil
+%w(nil).to_nil? # nil
+/nil/.to_nil? # nil
 ```
 
 ## Contributing
